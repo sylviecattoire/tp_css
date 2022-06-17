@@ -1,0 +1,23 @@
+/* Navbar */
+
+.container-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 30px;
+}
+
+.navbar {
+    background-color: rgb(254, 182, 156);
+    border-bottom: 3px solid rgb(242, 96, 96);
+}
+
+.navbar img {
+    margin: 10px 0;
+}
+
+nav a {
+    margin-left: 15px;
+}
