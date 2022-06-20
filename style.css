@@ -1,4 +1,5 @@
 /* Fonts */
+
 html {
     font-family: 'Roboto', sans-serif;
 }
@@ -19,8 +20,8 @@ html {
 }
 
 .navbar-container {
-    height: 60px;
     max-width: 900px;
+    height: 60px;
     margin: 0 auto;
 
     display: flex;
@@ -34,4 +35,97 @@ nav a {
 
 nav a:first-child {
     margin: 0;
+}
+
+/* Main */
+
+.main-container {
+    max-width: 600px;
+    height: 800px;
+    margin: 120px auto 60px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-container-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container-center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container p {
+    max-width: 390px;
+}
+
+.main-container p strong {
+    font-weight: 700;
+}
+
+.main-container p .strong-red {
+    color: rgb(242, 96, 96);
+}
+
+.box {
+    height: 210px;
+    width: 180px;
+
+    position: relative;
+    
+    background-color: rgb(254, 182, 156);
+}
+
+.child-bg {
+    background-color: rgb(242, 96, 96);
+}
+
+.child1 {
+    height: 70px;
+    width: 60px;
+}
+
+.child2 {
+    height: 140px;
+    width: 120px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.parent-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child3 {
+    height: 140px;
+    width: 110px;
+}
+
+.child4 {
+    height: 140px;
+    width: 120px;
+
+    position: absolute;
+    right: 0;
+}
+
+.child5 {
+    height: 70px;
+    width: 120px;
+
+    position: absolute;
+    bottom: 0;
 }
