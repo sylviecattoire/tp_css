@@ -1,23 +1,37 @@
+/* Fonts */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Navbar */
 
 .navbar {
-    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 0 30px;
-    
+
+    color: #373737;
+
     background-color: rgb(254, 182, 156);
     border-bottom: 3px solid rgb(242, 96, 96);
 }
 
 .navbar-container {
+    height: 60px;
     max-width: 900px;
     margin: 0 auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    background-color: aqua;
 }
 
 nav a {
     margin-left: 15px;
+}
+
+nav a:first-child {
+    margin: 0;
 }
